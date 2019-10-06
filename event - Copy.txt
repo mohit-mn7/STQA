@@ -1,0 +1,751 @@
+{
+  "id": "90324faf-6e14-48ae-90e0-6562a8069dd2",
+  "version": "2.0",
+  "name": "event",
+  "url": "http://eventsforall.000webhostapp.com",
+  "tests": [{
+    "id": "0ef59104-ee8f-4815-a113-569823a75cb7",
+    "name": "test_1",
+    "commands": [{
+      "id": "d5e00cb6-ddf9-40ca-b0c4-3cbab17b3b43",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a66a11ee-d040-4ca8-b7d7-e9d7c089a28e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c366d976-7599-4eb3-8a33-565b53c7e770",
+      "comment": "",
+      "command": "click",
+      "target": "css=img",
+      "targets": [
+        ["css=img", "css:finder"],
+        ["xpath=//img[@alt='www.000webhost.com']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2820",
+      "windowTimeout": 2000
+    }, {
+      "id": "21917413-7501-4912-9632-8f2224b13cc4",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4f4140d-8352-4994-8f36-fcb40de1b1b1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2820}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b5fba92-6f61-46df-803f-abdaeffe505f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "550555ae-8628-49bf-873c-9095788dd609",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8c725c7-2790-43bf-bdfa-bb7528ddc352",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign Up Here",
+      "targets": [
+        ["linkText=Sign Up Here", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Up Here')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'register.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Up Here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9559229a-f1bf-44a8-82e7-2c22099dbf2a",
+      "comment": "",
+      "command": "click",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=.col-md-6:nth-child(1) > ul:nth-child(1) > .text", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc1ea9be-8dd9-4c74-af20-f17efcd72450",
+      "comment": "",
+      "command": "type",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=.col-md-6:nth-child(1) > ul:nth-child(1) > .text", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Virendra"
+    }, {
+      "id": "66a9061b-8b1e-4252-9977-14bb068dc294",
+      "comment": "",
+      "command": "type",
+      "target": "name=midname",
+      "targets": [
+        ["name=midname", "name"],
+        ["css=.col-md-6:nth-child(1) > ul:nth-child(2) > .text", "css:finder"],
+        ["xpath=//input[@name='midname']", "xpath:attributes"],
+        ["xpath=//ul[2]/input", "xpath:position"]
+      ],
+      "value": "Ranjit"
+    }, {
+      "id": "60f850e5-8057-4d6e-ab7a-33366d4ec30d",
+      "comment": "",
+      "command": "type",
+      "target": "name=lastname",
+      "targets": [
+        ["name=lastname", "name"],
+        ["css=.col-md-6:nth-child(1) > ul:nth-child(3) > .text", "css:finder"],
+        ["xpath=//input[@name='lastname']", "xpath:attributes"],
+        ["xpath=//ul[3]/input", "xpath:position"]
+      ],
+      "value": "Panpatil"
+    }, {
+      "id": "a1b124b5-1510-4ca9-a81e-bb30cc0a6414",
+      "comment": "",
+      "command": "click",
+      "target": "name=gender",
+      "targets": [
+        ["name=gender", "name"],
+        ["css=ul:nth-child(4) > input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='gender']", "xpath:attributes"],
+        ["xpath=//ul[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e810273d-424d-45ff-ab94-e6a25eeede65",
+      "comment": "",
+      "command": "click",
+      "target": "name=address",
+      "targets": [
+        ["name=address", "name"],
+        ["css=.area", "css:finder"],
+        ["xpath=//textarea[@name='address']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e413e54-bce1-4234-8278-edc6b8487d49",
+      "comment": "",
+      "command": "click",
+      "target": "name=address",
+      "targets": [
+        ["name=address", "name"],
+        ["css=.area", "css:finder"],
+        ["xpath=//textarea[@name='address']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2729c9fc-c8cf-42aa-bf77-4d371525b35b",
+      "comment": "",
+      "command": "type",
+      "target": "name=address",
+      "targets": [
+        ["name=address", "name"],
+        ["css=.area", "css:finder"],
+        ["xpath=//textarea[@name='address']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Bharat Bhushan Society"
+    }, {
+      "id": "74bf9561-439a-42c4-b04e-36af95c596df",
+      "comment": "",
+      "command": "click",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=.text:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//ul[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b71b1bff-1f08-44e7-9cbd-7b4fd6bc10f0",
+      "comment": "",
+      "command": "type",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=.text:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//ul[5]/input", "xpath:position"]
+      ],
+      "value": "Nashik"
+    }, {
+      "id": "4c383c99-5b7c-4339-9f35-65ec9a053058",
+      "comment": "",
+      "command": "type",
+      "target": "name=state",
+      "targets": [
+        ["name=state", "name"],
+        ["css=.text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='state']", "xpath:attributes"],
+        ["xpath=//ul[5]/input[2]", "xpath:position"]
+      ],
+      "value": "Maharashtra"
+    }, {
+      "id": "c77205ef-ea5b-4f56-82da-b83bb0d87aec",
+      "comment": "",
+      "command": "type",
+      "target": "name=country",
+      "targets": [
+        ["name=country", "name"],
+        ["css=.text:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='country']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "In"
+    }, {
+      "id": "30d2f9da-4826-44e3-b2f0-71942bb94ac3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=country",
+      "targets": [
+        ["name=country", "name"],
+        ["css=.text:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='country']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "93d10e51-ddee-4912-8ab6-6af135f485aa",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=country",
+      "targets": [
+        ["name=country", "name"],
+        ["css=.text:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='country']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "${KEY_TAB}"
+    }, {
+      "id": "fcc3370c-549a-486d-a2dc-9eb5101b8860",
+      "comment": "",
+      "command": "type",
+      "target": "name=postalcode",
+      "targets": [
+        ["name=postalcode", "name"],
+        ["css=.text:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='postalcode']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "422101"
+    }, {
+      "id": "1811625f-a5d6-4566-b045-f05c2d21c996",
+      "comment": "",
+      "command": "click",
+      "target": "name=contact",
+      "targets": [
+        ["name=contact", "name"],
+        ["css=.col-md-6:nth-child(2) > ul:nth-child(1) > .text", "css:finder"],
+        ["xpath=//input[@name='contact']", "xpath:attributes"],
+        ["xpath=//div[2]/ul/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74d2441a-5489-4ceb-bdc4-5535d48b5d0b",
+      "comment": "",
+      "command": "type",
+      "target": "name=contact",
+      "targets": [
+        ["name=contact", "name"],
+        ["css=.col-md-6:nth-child(2) > ul:nth-child(1) > .text", "css:finder"],
+        ["xpath=//input[@name='contact']", "xpath:attributes"],
+        ["xpath=//div[2]/ul/input", "xpath:position"]
+      ],
+      "value": "9096109102"
+    }, {
+      "id": "45e08a50-5da0-47be-95b1-6bd1a611fd2e",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.col-md-6:nth-child(2) > ul:nth-child(2) > .text", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/ul[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cde9363-cec1-4fbb-8ccd-9500ca1be277",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.col-md-6:nth-child(2) > ul:nth-child(2) > .text", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/ul[2]/input", "xpath:position"]
+      ],
+      "value": "virendrapanpatil@gmail.com"
+    }, {
+      "id": "7c5375b7-81ee-4946-97fa-c3ef993eaedf",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.col-md-6:nth-child(2) > ul:nth-child(3) > .text", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/ul[3]/input", "xpath:position"]
+      ],
+      "value": "raftar"
+    }, {
+      "id": "797ed478-d5be-47d4-ae21-d7fadbd86c62",
+      "comment": "",
+      "command": "click",
+      "target": "css=.formbutton",
+      "targets": [
+        ["css=.formbutton", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20edcd8d-350d-417c-8ce3-3b75ade0f037",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Click here",
+      "targets": [
+        ["linkText=Click here", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Click here')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Click here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bde5c78-797a-49c9-bc94-8141715ea29a",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ba70a62-cd48-43a3-b2f9-b08bd9d8a3f4",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "virendrapanpatil@gmail.com"
+    }, {
+      "id": "19499dcb-0608-4794-bbe4-e4c5904f8800",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(9)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "raftar"
+    }, {
+      "id": "852f1c3c-c6c7-4b74-bab9-bd54dfc7f96b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.formbutton",
+      "targets": [
+        ["css=.formbutton", "css:finder"],
+        ["xpath=//input[@value='Authenticate']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b664b8cb-c632-4713-bdcd-e2dc7a592862",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Click Here",
+      "targets": [
+        ["linkText=Click Here", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Click Here')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'addevent.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Click Here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "198ea474-9e2e-433e-84e6-b388e1242013",
+      "comment": "",
+      "command": "click",
+      "target": "name=organisername",
+      "targets": [
+        ["name=organisername", "name"],
+        ["css=.col-md-6:nth-child(1) > ul:nth-child(1) > .text", "css:finder"],
+        ["xpath=//input[@name='organisername']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5622465-9bd7-4be3-9ed6-c23d14fb8208",
+      "comment": "",
+      "command": "type",
+      "target": "name=organisername",
+      "targets": [
+        ["name=organisername", "name"],
+        ["css=.col-md-6:nth-child(1) > ul:nth-child(1) > .text", "css:finder"],
+        ["xpath=//input[@name='organisername']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Virendra"
+    }, {
+      "id": "e232980f-7f52-4da5-b03d-09b83df5321c",
+      "comment": "",
+      "command": "click",
+      "target": "name=eventname",
+      "targets": [
+        ["name=eventname", "name"],
+        ["css=.col-md-6:nth-child(1) > ul:nth-child(2) > .text", "css:finder"],
+        ["xpath=//input[@name='eventname']", "xpath:attributes"],
+        ["xpath=//ul[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19ffa327-fe4a-4187-b432-384be09a2070",
+      "comment": "",
+      "command": "type",
+      "target": "name=eventname",
+      "targets": [
+        ["name=eventname", "name"],
+        ["css=.col-md-6:nth-child(1) > ul:nth-child(2) > .text", "css:finder"],
+        ["xpath=//input[@name='eventname']", "xpath:attributes"],
+        ["xpath=//ul[2]/input", "xpath:position"]
+      ],
+      "value": "Concert"
+    }, {
+      "id": "d6c316f9-928f-4519-8dc0-1cbb38d3d976",
+      "comment": "",
+      "command": "click",
+      "target": "name=date",
+      "targets": [
+        ["name=date", "name"],
+        ["css=ul:nth-child(3) > .text", "css:finder"],
+        ["xpath=//input[@name='date']", "xpath:attributes"],
+        ["xpath=//ul[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f23399c-c747-450a-82b2-f995a07eff58",
+      "comment": "",
+      "command": "type",
+      "target": "name=date",
+      "targets": [
+        ["name=date", "name"],
+        ["css=ul:nth-child(3) > .text", "css:finder"],
+        ["xpath=//input[@name='date']", "xpath:attributes"],
+        ["xpath=//ul[3]/input", "xpath:position"]
+      ],
+      "value": "2019-09-27"
+    }, {
+      "id": "c9aa0e29-d13c-43d2-b5f6-55128a9a59e5",
+      "comment": "",
+      "command": "click",
+      "target": "name= address",
+      "targets": [
+        ["name= address", "name"],
+        ["css=.area", "css:finder"],
+        ["xpath=//textarea[@name=' address']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86db05d3-c2cf-4c06-b329-6d6e1f872c4f",
+      "comment": "",
+      "command": "type",
+      "target": "name= address",
+      "targets": [
+        ["name= address", "name"],
+        ["css=.area", "css:finder"],
+        ["xpath=//textarea[@name=' address']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Deccan Gymkhana"
+    }, {
+      "id": "5fcfcbb0-c2fe-496d-b4e1-b3242d0693c2",
+      "comment": "",
+      "command": "click",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=.text:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//ul[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8217970b-a236-4222-bad0-36ec33e2cecd",
+      "comment": "",
+      "command": "type",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=.text:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//ul[4]/input", "xpath:position"]
+      ],
+      "value": "pune"
+    }, {
+      "id": "b3026ee4-0352-490a-8e79-6fa0faa06543",
+      "comment": "",
+      "command": "click",
+      "target": "name=state",
+      "targets": [
+        ["name=state", "name"],
+        ["css=.text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='state']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dc06689-0946-4648-876a-0e3a808b3308",
+      "comment": "",
+      "command": "type",
+      "target": "name=state",
+      "targets": [
+        ["name=state", "name"],
+        ["css=.text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='state']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Maharashtra"
+    }, {
+      "id": "1b2b7854-5d5d-4ff5-a923-9b13908e95a9",
+      "comment": "",
+      "command": "click",
+      "target": "name=country",
+      "targets": [
+        ["name=country", "name"],
+        ["css=.text:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='country']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be6373b7-1791-4a18-801f-cfccfec2204a",
+      "comment": "",
+      "command": "type",
+      "target": "name=country",
+      "targets": [
+        ["name=country", "name"],
+        ["css=.text:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='country']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "in"
+    }, {
+      "id": "f6352119-4ac9-4119-bb2f-d3a9d9d82b17",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=country",
+      "targets": [
+        ["name=country", "name"],
+        ["css=.text:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='country']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "9e35f038-e770-438d-90f3-65aadf69891a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=country",
+      "targets": [
+        ["name=country", "name"],
+        ["css=.text:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='country']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "05e00fce-741b-46a2-9190-a9e2f9b366af",
+      "comment": "",
+      "command": "click",
+      "target": "name=country",
+      "targets": [
+        ["name=country", "name"],
+        ["css=.text:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='country']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84717fcb-d232-4a8e-b506-bdba97457f37",
+      "comment": "",
+      "command": "type",
+      "target": "name=country",
+      "targets": [
+        ["name=country", "name"],
+        ["css=.text:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='country']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "india"
+    }, {
+      "id": "6f8aea90-c5cf-40ab-9732-a3942685eda1",
+      "comment": "",
+      "command": "click",
+      "target": "name=postalcode",
+      "targets": [
+        ["name=postalcode", "name"],
+        ["css=.text:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='postalcode']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ff8025c-b11f-4320-ac4e-c71666a086a3",
+      "comment": "",
+      "command": "type",
+      "target": "name=postalcode",
+      "targets": [
+        ["name=postalcode", "name"],
+        ["css=.text:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='postalcode']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "411032"
+    }, {
+      "id": "bba2f2be-5758-48cf-a1d9-8d458b7b2f27",
+      "comment": "",
+      "command": "click",
+      "target": "name=contact",
+      "targets": [
+        ["name=contact", "name"],
+        ["css=.col-md-6:nth-child(2) > ul:nth-child(1) > .text", "css:finder"],
+        ["xpath=//input[@name='contact']", "xpath:attributes"],
+        ["xpath=//div[2]/ul/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cb337e8-08b5-4b8d-8057-50d2b03c7054",
+      "comment": "",
+      "command": "type",
+      "target": "name=contact",
+      "targets": [
+        ["name=contact", "name"],
+        ["css=.col-md-6:nth-child(2) > ul:nth-child(1) > .text", "css:finder"],
+        ["xpath=//input[@name='contact']", "xpath:attributes"],
+        ["xpath=//div[2]/ul/input", "xpath:position"]
+      ],
+      "value": "9598495320"
+    }, {
+      "id": "51d33704-8a08-49a0-9fe2-ee94442f285f",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.col-md-6:nth-child(2) > ul:nth-child(2) > .text", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/ul[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7dedfce-986e-4a6c-8824-a0e4924bcf6a",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.col-md-6:nth-child(2) > ul:nth-child(2) > .text", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/ul[2]/input", "xpath:position"]
+      ],
+      "value": "virendrapanpatil@gmail.com"
+    }, {
+      "id": "8edff331-453b-4226-a6bd-035bad205779",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.formbutton",
+      "targets": [
+        ["css=.formbutton", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e6da1f2-b834-4e75-b26d-532935cfec7f",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94590e9d-451d-479a-ab79-850c99ed66b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.formbutton",
+      "targets": [
+        ["css=.formbutton", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2283ae5-f41c-4023-be2f-fa183ca8efb5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Click here",
+      "targets": [
+        ["linkText=Click here", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Click here')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'list.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Click here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b8f8eacb-3b9f-420c-9a59-171049f63ca4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0ef59104-ee8f-4815-a113-569823a75cb7"]
+  }],
+  "urls": ["http://eventsforall.000webhostapp.com/"],
+  "plugins": []
+}
