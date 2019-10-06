@@ -1,0 +1,5 @@
+java -jar selenium-server-standalone-3.141.0.jar -role hub -port 4444 
+
+
+
+java -Dwebdriver.chrome.driver=chromedriver.exe -jar selenium-server-standalone-3.141.0.jar -role webdriver -hub http://10.12.1.255:4444/grid/register -port 5566 
